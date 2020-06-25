@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "a146f742-1250-4877-ab34-4c7c63be2ef8",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test case to validate City_Success",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://bpdts-test-app-v2.herokuapp.com/city/Perivólia/users",
+					"protocol": "http",
+					"host": [
+						"bpdts-test-app-v2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"city",
+						"Perivólia",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case to validate _Error Response",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://bpdts-test-app-v2.herokuapp.com/user/5019",
+					"protocol": "http",
+					"host": [
+						"bpdts-test-app-v2",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"5019"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
